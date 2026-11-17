@@ -97,7 +97,7 @@ const SITE = {
      ===== NAVBAR  (the bar pinned to the top) ========================
      =================================================================== */
   nav: {
-    brand: "Alex Doe",       // 👉 EDIT — your name or logo text (top-left)
+    brand: "Wania Noor",       // 👉 EDIT — your name or logo text (top-left)
     showThemeToggle: true,   // the light/dark switch
     showDotRail: true,       // the little dots on the right that show which section you're in (set false to hide)
     commandPalette: true,    // the quick search (press Ctrl/⌘ + K or "/") — jump anywhere, switch theme, copy email
@@ -110,10 +110,11 @@ const SITE = {
     statusText: "Available for new opportunities",  // 👉 EDIT — e.g. "Based in your city" or "Open to freelance"
     statusOpen: true,                  // true = green dot, false = grey dot
     eyebrow: "Hi, my name is",         // the small line above your name
-    name: "Alex Doe",                  // 👉 EDIT — your full name
-    nameHighlight: "Doe",              // part of your name to underline in the accent colour ("" for none)
+    name: "Wania Noor",                  // 👉 EDIT — your full name
+    nameHighlight: "Noor",              // part of your name to underline in the accent colour ("" for none)
     tagline:                           // 👉 EDIT — one or two sentences about you
-      "Welcome to my corner of the web. I love creating things, learning new skills, and sharing the work I'm proud of. Have a look around.",
+      "tagline:
+  "I am an Information Security Engineering student at NUST, interested in cybersecurity, ethical hacking, and protecting digital systems. I am developing my programming skills and exploring practical security projects as I continue learning.",",
     typewriter: false,                 // OPTIONAL typing animation on the name (off under reduced-motion)
 
     // The two buttons under your tagline. The "href" jumps to a section.
@@ -265,11 +266,11 @@ const SITE = {
     intro: "Where I studied",
     items: [
       {
-        title: "Bachelor's Degree",         // 👉 EDIT
-        org: "City University",             // 👉 EDIT
-        dates: "2015 — 2019",               // 👉 EDIT
+        title: "Bachelor of Engineering in Information Security",         // 👉 EDIT
+        org: "National University of Sciences and Technology",             // 👉 EDIT
+        dates: "2025 — present",               // 👉 EDIT
         logo: "",
-        bullets: ["Studied a subject I loved and made friends for life."],
+        bullets: ["Currently pursuing my degree and building skills in programming and cybersecurity."],
       },
       {
         title: "Online Certificate",
@@ -315,43 +316,36 @@ const SITE = {
     intro: "A few things I've worked on",
     items: [
       {
-        featured: true,
-        title: "Community Recipe Book",                               // 👉 EDIT
-        description:                                                  // 👉 EDIT
-          "A collaborative cookbook bringing together favourite recipes from friends and neighbours. I gathered the contributions and designed the layout — my proudest little side project.",
-        image: "assets/img/project-1.svg",                           // 👉 EDIT — 1200×750 works well
-        tags: ["Design", "Community", "Writing"],                    // 👉 EDIT
-        links: [
-          { type: "demo",   label: "Take a look", url: "https://example.com" },             // 👉 EDIT
-          { type: "source", label: "Details",     url: "https://example.com" },             // 👉 EDIT
-        ],
-      },
+     {
+  featured: true,
+  title: "C++ Programming Practice",
+  description: "A collection of programming exercises exploring arrays, functions, problem-solving, and fundamental data structures.",
+  image: "assets/img/project-1.svg",
+  tags: ["C++", "Programming", "DSA"],
+  links: [
+    { type: "source", label: "GitHub", url: "" },
+  ],
+},
+     {
+  featured: false,
+  title: "Singly Linked List",
+  description: "A C++ practice project exploring node creation, traversal, searching, insertion, and deletion in a singly linked list.",
+  image: "assets/img/project-2.svg",
+  tags: ["C++", "DSA", "Linked Lists"],
+  links: [
+    { type: "source", label: "GitHub", url: "" },
+  ],
+},
       {
-        featured: false,
-        title: "Personal Blog",
-        description:
-          "A small blog where I write about what I'm learning. A nice way to keep track of ideas and share them with others.",
-        image: "assets/img/project-2.svg",
-        tags: ["Writing", "Web"],
-        links: [
-          { type: "demo",   label: "Read it", url: "https://example.com" },
-          { type: "source", label: "Source",  url: "" },   // empty url = button hidden
-        ],
-      },
-      {
-        featured: false,
-        title: "Photography Series",
-        description:
-          "A year-long personal project documenting my city, one photo a week. It taught me patience and a good eye for light.",
-        image: "assets/img/project-3.svg",
-        tags: ["Photography", "Personal"],
-        links: [
-          { type: "demo",   label: "View gallery", url: "https://example.com" },
-          { type: "source", label: "Source",       url: "" },
-        ],
-      },
-    ],
-  },
+  featured: false,
+  title: "Password Strength Analyzer",
+  description: "A programming project designed to evaluate password characteristics and provide feedback on password strength.",
+  image: "assets/img/project-3.svg",
+  tags: ["Cybersecurity", "Programming"],
+  links: [
+    { type: "source", label: "GitHub", url: "" },
+  ],
+},
 
   /* ===================================================================
      ===== GALLERY  (a photo grid) — safe to delete ===================
