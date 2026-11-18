@@ -113,7 +113,7 @@ const SITE = {
     name: "Wania Noor",                  // 👉 EDIT — your full name
     nameHighlight: "Noor",              // part of your name to underline in the accent colour ("" for none)
     tagline:                           // 👉 EDIT — one or two sentences about you
-      ""Hi, I'm Wania Noor, an Information Security Engineering student at NUST. I'm passionate about cybersecurity, ethical hacking, and protecting digital systems. I'm continuously developing my programming and security skills through learning, projects, and practical experience.",
+      "Hi, I'm Wania Noor, an Information Security Engineering student at NUST. I'm passionate about cybersecurity, ethical hacking, and protecting digital systems. I'm continuously developing my programming and security skills through learning, projects, and practical experience.",
     typewriter: false,                 // OPTIONAL typing animation on the name (off under reduced-motion)
 
     // The two buttons under your tagline. The "href" jumps to a section.
