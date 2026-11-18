@@ -290,11 +290,11 @@ const SITE = {
   skills: {
     intro: "What I bring to the table",
     groups: [
-      { name: "Strengths", items: ["Communication", "Teamwork", "Problem-solving", "Organisation"] }, // 👉 EDIT
-      { name: "Tools",     items: ["Office suite", "Email & calendars", "Notion", "Canva"] },          // 👉 EDIT
-      { name: "Languages", items: ["English", "Spanish"] },                                            // 👉 EDIT
-      { name: "Interests", items: ["Design", "Writing", "Photography"] },                              // 👉 EDIT
-    ],
+  { name: "Programming", items: ["C++", "Java", "Python (Learning)"] },
+  { name: "Cybersecurity", items: ["Information Security", "OSINT (Learning)", "Cybersecurity Fundamentals"] },
+  { name: "Tools", items: ["GitHub", "VS Code", "Canva"] },
+  { name: "Professional", items: ["Communication", "Teamwork", "Problem-solving"] },
+],
   },
 
   /* ===================================================================
@@ -457,13 +457,11 @@ const SITE = {
        github · linkedin · x (twitter) · instagram · dribbble · mastodon
        bluesky · youtube · codepen · globe (website) · mail (email)
      For "mail", write the address with mailto:  — see below. */
-  social: [
-    { icon: "github",   label: "GitHub",   url: "https://github.com/your-username" },   // 👉 EDIT
-    { icon: "linkedin", label: "LinkedIn", url: "https://linkedin.com/in/your-name" },  // 👉 EDIT
-    { icon: "instagram",label: "Instagram",url: "https://instagram.com/your-handle" },  // 👉 EDIT
-    { icon: "globe",    label: "Website",  url: "" },                                    // 👉 EDIT (add a url to show)
-    { icon: "mail",     label: "Email",    url: "mailto:hello@example.com" },            // 👉 EDIT
-  ],
+ social: [
+  { icon: "github", label: "GitHub", url: "https://github.com/wanianoor-crypto" },
+  { icon: "linkedin", label: "LinkedIn", url: "https://www.linkedin.com/in/wania-noor-b37176294/" },
+  { icon: "mail", label: "Email", url: "mailto:wnoor.beis25mcs@student.nust.edu.pk" },
+],
 
 };
 
