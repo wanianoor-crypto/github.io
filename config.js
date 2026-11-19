@@ -222,41 +222,35 @@ const SITE = {
        dates  · any text, e.g. "2022 — Present"
        logo   · OPTIONAL small image path, or "" for none
        bullets· 1–3 short lines about what you did (a list) */
-  experience: {
-    intro: "Where I've spent my time",
-    items: [
-      {
-        title: "Project Coordinator",                 // 👉 EDIT
-        org: "Evergreen Studio",                      // 👉 EDIT
-        dates: "2022 — Present",                      // 👉 EDIT
-        logo: "",
-        bullets: [
-          "Helped plan and run projects from first idea to finished result.",
-          "Brought a calmer, simpler way of working to a busy team.",
-          "Grew the community around what we do.",
-        ],
-      },
-      {
-        title: "Team Member",
-        org: "Northwind Co.",
-        dates: "2020 — 2022",
-        logo: "",
-        bullets: [
-          "Supported the team across a bit of everything.",
-          "Learned to work closely with people in lots of different roles.",
-        ],
-      },
-      {
-        title: "Volunteer",
-        org: "Local Community Group",
-        dates: "2019 — 2020",
-        logo: "",
-        bullets: [
-          "Organised events and lent a hand wherever it was needed.",
-        ],
-      },
-    ],
-  },
+  
+experience: {
+  intro: "My Technology Internships",
+  items: [
+    {
+      title: "Programming Intern",
+      org: "Arch Technologies",
+      dates: "Feb - May 2026",
+      logo: "",
+      bullets: [
+        "Gained practical exposure to technology through internship activities.",
+        "Developed technical knowledge and learned through hands-on experience.",
+        "Strengthened problem-solving and professional skills.",
+      ],
+    },
+    {
+      title: "Cybersecurity Intern",
+      org: "ARZENS",
+      dates: "June - September 2026",
+      logo: "",
+      bullets: [
+        "Explored cybersecurity concepts and practical security learning.",
+        "Expanded knowledge of information security and related tools.",
+        "Continued developing technical and analytical skills.",
+      ],
+    },
+  ],
+},
+
 
   /* ===================================================================
      ===== EDUCATION  (same timeline pattern, simpler) ================
