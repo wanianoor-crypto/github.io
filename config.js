@@ -327,7 +327,9 @@ experience: {
        tags  · a few short labels (skills, topics — your call)
        links · buttons on the card. Set a url to "" to hide that button.
                type can be "demo", "source", or any label you like. */
- items: [
+projects: {
+  intro: "My Projects",
+  items: [
   {
     featured: true,
     title: "OTP Verification System",
@@ -365,6 +367,7 @@ experience: {
     ],
   },
 ],
+},
   /* ===================================================================
      ===== GALLERY  (a photo grid) — safe to delete ===================
      ===================================================================
