@@ -145,16 +145,12 @@ const SITE = {
      The "id" must stay the same (the code matches content to it). */
   sections: [
     { id: "about",        nav: "About",        show: true  },
-    { id: "now",          nav: "Now",          show: true  },  // safe to delete
-    { id: "stats",        nav: "Highlights",   show: false },  // safe to delete · "by the numbers" — set true to show
     { id: "experience",   nav: "Experience",   show: true  },
     { id: "education",    nav: "Education",     show: true  },
     { id: "skills",       nav: "Skills",       show: true  },
     { id: "projects",     nav: "Projects",     show: true  },
-    { id: "gallery",      nav: "Gallery",      show: true  },  // safe to delete · photo grid
-    { id: "writing",      nav: "Writing",      show: true  },  // safe to delete
-    { id: "testimonials", nav: "References",   show: true  },  // safe to delete
     { id: "contact",      nav: "Contact",      show: true  },
+
   ],
 
   /* ===================================================================
@@ -185,43 +181,7 @@ const SITE = {
      ===== NOW  (what you're up to right now) — safe to delete ========
      ===================================================================
      A friendly "currently" list. icon names: wrench · pen · folder · user */
-  now: {
-    intro: "What I'm up to right now",
-    items: [
-      { icon: "folder", text: "Working on a project I'm genuinely excited about." }, // 👉 EDIT
-      { icon: "pen",    text: "Learning a new skill, a little bit every day." },
-      { icon: "user",   text: "Hoping to meet more people who care about their craft." },
-    ],
-  },
 
-  /* ===================================================================
-     ===== HIGHLIGHTS / STATS  ("by the numbers") — safe to delete ====
-     ===================================================================
-     A row of big numbers that gently count up when scrolled into view.
-     OFF by default — set the "stats" line in the section list above to
-     show: true to switch it on.
-       value · any text — "5+", "100%", "30"
-       label · what the number means */
-  stats: {
-    intro: "A few highlights",
-    items: [
-      { value: "5+",   label: "Years doing what I love" }, // 👉 EDIT
-      { value: "30",   label: "Projects completed" },      // 👉 EDIT
-      { value: "12",   label: "Happy collaborators" },     // 👉 EDIT
-      { value: "100%", label: "Made with care" },          // 👉 EDIT
-    ],
-  },
-
-  /* ===================================================================
-     ===== EXPERIENCE  (your history — a timeline) ====================
-     ===================================================================
-     This works for ANY field — jobs, internships, volunteering, clubs.
-     Copy a whole { ... } block to add another entry. Each block:
-       title  · your role / position
-       org    · the place (company, school, group…)
-       dates  · any text, e.g. "2022 — Present"
-       logo   · OPTIONAL small image path, or "" for none
-       bullets· 1–3 short lines about what you did (a list) */
   
 experience: {
   intro: "My Technology Internships",
@@ -375,65 +335,6 @@ projects: {
      images in /assets/img and list them here. Square-ish photos look best.
        image   · the picture path
        caption · OPTIONAL — shown under the photo and in the viewer ("" hides it) */
-  gallery: {
-    intro: "A few moments & visuals",
-    items: [
-      { image: "assets/img/gallery-1.svg", caption: "Add a caption — or leave it blank" }, // 👉 EDIT
-      { image: "assets/img/gallery-2.svg", caption: "Click a photo to enlarge it" },
-      { image: "assets/img/gallery-3.svg", caption: "" },
-      { image: "assets/img/gallery-4.svg", caption: "Swap these for your own pictures" },
-      { image: "assets/img/gallery-5.svg", caption: "" },
-      { image: "assets/img/gallery-6.svg", caption: "Add or remove as many as you like" },
-    ],
-  },
-
-  /* ===================================================================
-     ===== WRITING  (optional blog/notes teasers) — safe to delete ====
-     ===================================================================
-     These are just static cards for now. The GROWING.md guide explains
-     how to load real posts from a blog or notes app later. */
-  writing: {
-    intro: "Notes & things I've written",
-    items: [
-      {
-        title: "What I learned starting something new",   // 👉 EDIT
-        date: "2024-11-02",                                // 👉 EDIT — YYYY-MM-DD
-        blurb: "A few honest reflections on beginning a project from scratch — the nerves, the small wins, and what I'd do differently.",
-        url: "https://example.com/post-one",               // 👉 EDIT
-      },
-      {
-        title: "On staying motivated",
-        date: "2024-08-19",
-        blurb: "Simple habits that help me keep going when a project gets hard or the excitement wears off.",
-        url: "https://example.com/post-two",
-      },
-      {
-        title: "My favourite tools this year",
-        date: "2024-05-30",
-        blurb: "A short, friendly round-up of the apps and gear that made my year a little easier.",
-        url: "https://example.com/post-three",
-      },
-    ],
-  },
-
-  /* ===================================================================
-     ===== TESTIMONIALS / REFERENCES  — safe to delete ================
-     =================================================================== */
-  testimonials: {
-    intro: "Kind words",
-    items: [
-      {
-        quote: "A pleasure to work with — thoughtful, dependable, and always willing to help. I'd happily team up again.", // 👉 EDIT
-        name: "Sam Rivera",          // 👉 EDIT
-        role: "Colleague",           // 👉 EDIT
-      },
-      {
-        quote: "Brings good energy and real care to everything they do. The kind of person who makes a team better.",
-        name: "Jordan Lee",
-        role: "Mentor",
-      },
-    ],
-  },
 
   /* ===================================================================
      ===== CONTACT ====================================================
